@@ -19,7 +19,7 @@ export default function CTASection() {
         setEmail('');
     };
     return (
-        <section className="relative bg-[#0e0e10] py-24 px-6 text-center font-geist">
+        <section className="relative bg-[#0e0e10] py-24 px-6 text-center font-geist" id='cta'>
             {/* Glowing Background Accent */}
             <div className="absolute inset-0 -z-10 overflow-hidden">
                 <div className="absolute top-10 left-1/2 transform -translate-x-1/2 w-[400px] h-[400px] bg-pink-500 opacity-10 rounded-full blur-[100px]" />

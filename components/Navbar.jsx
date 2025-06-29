@@ -18,8 +18,8 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center font-geist">
         <h1 className="text-xl font-semibold text-white">LocaLM</h1>
         <a
-          href="#"
-          className="text-sm font-medium text-white bg-pink-600 hover:bg-pink-700 transition px-5 py-2 rounded-full shadow"
+          href="#cta"
+          className="text-sm font-medium text-white bg-pink-600 hover:bg-pink-700 px-5 py-2 rounded-full shadow"
         >
           Join Waitlist
         </a>

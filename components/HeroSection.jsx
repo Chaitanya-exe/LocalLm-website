@@ -51,7 +51,7 @@ export default function HeroSection() {
                 transition={{ delay: 0.5, duration: 1 }}
                 className="w-full max-w-md"
             >
-                <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row items-center gap-3 bg-white rounded-full px-3 py-1.5 shadow-xl">
+                {/* <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row items-center gap-3 bg-white rounded-full px-3 py-1.5 shadow-xl">
                     <input
                         type="email"
                         placeholder="Enter your email"
@@ -65,7 +65,7 @@ export default function HeroSection() {
                     >
                         Join Waitlist
                     </button>
-                </form>
+                </form> */}
                 {status && <p className="text-sm text-green-400 mt-2">{status}</p>}
             </motion.div>
         </section>
